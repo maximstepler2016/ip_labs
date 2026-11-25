@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Гауда та вафлі">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe66d"/><stop offset="1" stop-color="#f4a259"/></linearGradient></defs>
+  <rect width="800" height="500" fill="url(#g)"/>
+  <polygon points="200,330 600,330 600,230 200,150" fill="#ffd166"/><polygon points="200,330 600,330 600,350 200,350" fill="#e09f3e"/><polygon points="200,150 600,230 520,200 280,130" fill="#fff3b0"/>
+  <circle cx="300" cy="280" r="22" fill="#e09f3e"/><circle cx="420" cy="270" r="30" fill="#e09f3e"/><circle cx="520" cy="300" r="18" fill="#e09f3e"/>
+  <text x="400" y="475" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#fff" text-anchor="middle">Гауда та вафлі</text>
+</svg>

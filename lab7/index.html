@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №7 — Подільський політехнічний інститут</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- HEADER (варіант 1: header#events_container) -->
+<header id="events_container">
+    <!-- Верхня панель: логотип, меню, мова (flex) -->
+    <div class="top-bar">
+        <a href="#" class="logo">
+            <span class="logo-mark">ППІ</span>
+            <span class="logo-text">Подільський<br>політехнічний інститут</span>
+        </a>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="burger" aria-label="Меню">
+            <span></span><span></span><span></span>
+        </label>
+
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">Про інститут</a></li>
+                <li><a href="#">Вступ</a></li>
+                <li><a href="#">Навчання</a></li>
+                <li><a href="#">Наука</a></li>
+                <li><a href="#news">Новини</a></li>
+                <li><a href="#">Контакти</a></li>
+            </ul>
+        </nav>
+
+        <div class="lang">
+            <a href="#" class="active">UA</a>
+            <a href="#">EN</a>
+        </div>
+    </div>
+
+    <!-- Блок «Події та анонси» (flex-ряд карток) -->
+    <section class="events" aria-labelledby="events-title">
+        <div class="events-head">
+            <h1 id="events-title" class="events-heading">Події та анонси</h1>
+            <a href="#" class="events-all">Усі події &rarr;</a>
+        </div>
+
+        <div class="events-list">
+            <article class="event-card">
+                <a href="#" class="event-link">
+                    <time class="event-date" datetime="2026-11-26"><strong>26</strong><span>лист.</span></time>
+                    <div class="event-info">
+                        <h3 class="event-title">Відкрита лекція про відновлювану енергетику</h3>
+                        <p class="event-meta">📍 Актова зала</p>
+                        <p class="event-meta">🕒 14:00</p>
+                    </div>
+                </a>
+            </article>
+            <article class="event-card">
+                <a href="#" class="event-link">
+                    <time class="event-date" datetime="2026-12-03"><strong>03</strong><span>груд.</span></time>
+                    <div class="event-info">
+                        <h3 class="event-title">Гакатон «Розумне місто»</h3>
+                        <p class="event-meta">📍 Корпус інформатики, зала А</p>
+                        <p class="event-meta">🕒 09:30</p>
+                    </div>
+                </a>
+            </article>
+            <article class="event-card">
+                <a href="#" class="event-link">
+                    <time class="event-date" datetime="2026-12-09"><strong>09</strong><span>груд.</span></time>
+                    <div class="event-info">
+                        <h3 class="event-title">Зустріч випускників потоку 2016</h3>
+                        <p class="event-meta">📍 Бібліотека, конференц-зал</p>
+                        <p class="event-meta">🕒 17:30</p>
+                    </div>
+                </a>
+            </article>
+            <article class="event-card">
+                <a href="#" class="event-link">
+                    <time class="event-date" datetime="2026-12-15"><strong>15</strong><span>груд.</span></time>
+                    <div class="event-info">
+                        <h3 class="event-title">День відкритих дверей інституту</h3>
+                        <p class="event-meta">📍 Головний корпус, ауд. 101</p>
+                        <p class="event-meta">🕒 11:00</p>
+                    </div>
+                </a>
+            </article>
+        </div>
+    </section>
+</header>
+
+<!-- MAIN: div.main-container → «Новини університету» (grid) -->
+<main>
+    <div class="main-container">
+        <section id="news" class="news">
+            <div class="news-header">
+                <h2>Новини університету</h2>
+                <a href="#" class="news-all">Усі новини &rarr;</a>
+            </div>
+
+            <div class="news-grid">
+                <article class="news-card news-card--featured">
+                    <a href="#">
+                        <div class="news-image"><img src="img/news1.svg" alt="Ілюстрація до новини: Університет"></div>
+                        <div class="news-body">
+                            <span class="news-tag">Університет</span>
+                            <h3 class="news-title">Інститут увійшов до національного рейтингу вишів</h3>
+                            <time class="news-date" datetime="2026-11-23">23 листопада 2026</time>
+                        </div>
+                    </a>
+                </article>
+                <article class="news-card">
+                    <a href="#">
+                        <div class="news-image"><img src="img/news2.svg" alt="Ілюстрація до новини: Наука"></div>
+                        <div class="news-body">
+                            <span class="news-tag">Наука</span>
+                            <h3 class="news-title">Науковці створили датчик для моніторингу якості повітря</h3>
+                            <time class="news-date" datetime="2026-11-22">22 листопада 2026</time>
+                        </div>
+                    </a>
+                </article>
+                <article class="news-card">
+                    <a href="#">
+                        <div class="news-image"><img src="img/news3.svg" alt="Ілюстрація до новини: Студентам"></div>
+                        <div class="news-body">
+                            <span class="news-tag">Студентам</span>
+                            <h3 class="news-title">Стартує реєстрація на зимову школу програмування</h3>
+                            <time class="news-date" datetime="2026-11-20">20 листопада 2026</time>
+                        </div>
+                    </a>
+                </article>
+                <article class="news-card">
+                    <a href="#">
+                        <div class="news-image"><img src="img/news4.svg" alt="Ілюстрація до новини: Міжнародне"></div>
+                        <div class="news-body">
+                            <span class="news-tag">Міжнародне</span>
+                            <h3 class="news-title">Підписано угоду про обмін студентами з польським університетом</h3>
+                            <time class="news-date" datetime="2026-11-18">18 листопада 2026</time>
+                        </div>
+                    </a>
+                </article>
+                <article class="news-card">
+                    <a href="#">
+                        <div class="news-image"><img src="img/news5.svg" alt="Ілюстрація до новини: Події"></div>
+                        <div class="news-body">
+                            <span class="news-tag">Події</span>
+                            <h3 class="news-title">Студенти провели День відкритих дверей для школярів Вінниці</h3>
+                            <time class="news-date" datetime="2026-11-16">16 листопада 2026</time>
+                        </div>
+                    </a>
+                </article>
+                <article class="news-card">
+                    <a href="#">
+                        <div class="news-image"><img src="img/news6.svg" alt="Ілюстрація до новини: Спорт"></div>
+                        <div class="news-body">
+                            <span class="news-tag">Спорт</span>
+                            <h3 class="news-title">Збірна інституту стала другою на турнірі з баскетболу</h3>
+                            <time class="news-date" datetime="2026-11-14">14 листопада 2026</time>
+                        </div>
+                    </a>
+                </article>
+                <article class="news-card">
+                    <a href="#">
+                        <div class="news-image"><img src="img/news7.svg" alt="Ілюстрація до новини: Культура"></div>
+                        <div class="news-body">
+                            <span class="news-tag">Культура</span>
+                            <h3 class="news-title">У холі першого корпусу відкрилася виставка студентських проєктів</h3>
+                            <time class="news-date" datetime="2026-11-12">12 листопада 2026</time>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </section>
+    </div>
+</main>
+
+<footer class="footer">
+    <p>&copy; 2026 Максим Бойко, ТК-41. Лабораторна робота №7. <a href="../index.html">До переліку робіт</a></p>
+</footer>
+
+</body>
+</html>

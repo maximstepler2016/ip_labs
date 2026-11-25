@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200" role="img" aria-label="Восьминіг">
+  <rect width="300" height="200" fill="#0b4f6c"/>
+  <circle cx="150" cy="80" r="52" fill="#e56b6f"/>
+  <circle cx="130" cy="75" r="9" fill="#fff"/><circle cx="170" cy="75" r="9" fill="#fff"/><circle cx="132" cy="77" r="4" fill="#222"/><circle cx="168" cy="77" r="4" fill="#222"/>
+  <g stroke="#e56b6f" stroke-width="12" fill="none" stroke-linecap="round"><path d="M110 125 Q90 160 60 165"/><path d="M130 130 Q125 170 100 185"/><path d="M150 132 L150 182"/><path d="M170 130 Q175 170 200 185"/><path d="M190 125 Q210 160 240 165"/></g>
+</svg>

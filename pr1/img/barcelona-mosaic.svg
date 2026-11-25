@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Парк Ґуель">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a9d8f"/><stop offset="1" stop-color="#264653"/></linearGradient></defs>
+  <rect width="800" height="500" fill="url(#g)"/>
+  <g opacity=".95">
+  <rect x="120" y="60" width="150" height="120" fill="#e9c46a"/><rect x="270" y="60" width="150" height="120" fill="#f4a261"/><rect x="420" y="60" width="150" height="120" fill="#e76f51"/><rect x="570" y="60" width="110" height="120" fill="#fff" opacity=".6"/>
+  <rect x="120" y="180" width="150" height="120" fill="#fff" opacity=".6"/><rect x="270" y="180" width="150" height="120" fill="#2a9d8f"/><rect x="420" y="180" width="150" height="120" fill="#e9c46a"/><rect x="570" y="180" width="110" height="120" fill="#f4a261"/>
+  <rect x="120" y="300" width="150" height="110" fill="#e76f51"/><rect x="270" y="300" width="150" height="110" fill="#f4a261"/><rect x="420" y="300" width="150" height="110" fill="#fff" opacity=".6"/><rect x="570" y="300" width="110" height="110" fill="#e9c46a"/></g>
+  <path d="M120 410 Q400 330 680 60" stroke="#264653" stroke-width="14" fill="none" opacity=".7"/>
+  <text x="400" y="475" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#fff" text-anchor="middle">Парк Ґуель</text>
+</svg>

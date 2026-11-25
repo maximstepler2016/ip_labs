@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Барселона">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd27d"/><stop offset="1" stop-color="#e4572e"/></linearGradient></defs>
+  <rect width="800" height="500" fill="url(#g)"/>
+  <circle cx="150" cy="110" r="50" fill="#fff" opacity=".4"/>
+  <g fill="#3b1f2b" opacity=".9"><rect x="0" y="410" width="800" height="90"/>
+  <polygon points="250,410 270,120 290,410"/><polygon points="330,410 355,70 380,410"/><polygon points="420,410 445,70 470,410"/><polygon points="510,410 530,120 550,410"/>
+  <rect x="250" y="300" width="300" height="12"/><circle cx="270" cy="115" r="9"/><circle cx="355" cy="62" r="10"/><circle cx="445" cy="62" r="10"/><circle cx="530" cy="115" r="9"/></g>
+  <text x="400" y="475" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#fff" text-anchor="middle">Барселона</text>
+</svg>

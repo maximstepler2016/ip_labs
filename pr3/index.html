@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Trivia — перевір свої знання про світ</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a href="#main" class="jump-link">До основного вмісту</a>
+
+    <header>
+        <nav aria-label="Головне меню">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#trivia">Trivia</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#scores">Scores</a></li>
+                <li><a href="#subscribe">Subscribe</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <!-- ===== Home ===== -->
+        <section id="home">
+            <h1>Вітаємо у World Trivia!</h1>
+            <p>
+                World Trivia — це сайт для тих, хто любить дізнаватися нове про нашу планету.
+                Відповідайте на запитання про музику, мови, математику, кулінарію та тварин, змагайтеся
+                з гравцями з усього світу та піднімайтеся в таблиці результатів.
+            </p>
+        </section>
+
+        <!-- ===== Trivia ===== -->
+        <section id="trivia">
+            <h2>Trivia: дивовижні факти</h2>
+
+            <article class="fact-card">
+                <img src="img/octopus.svg" alt="Восьминіг у профіль із розкинутими щупальцями">
+                <div>
+                    <h3>Скільки сердець у восьминога?</h3>
+                    <p>Три! Два серця качають кров через зябра, а третє розганяє її по всьому тілу. Кров восьминога блакитна, бо містить мідь замість заліза.</p>
+                </div>
+            </article>
+
+            <article class="fact-card">
+                <img src="img/lightning.svg" alt="Блискавка, що вдаряє з грозової хмари">
+                <div>
+                    <h3>Яка гаряча блискавка?</h3>
+                    <p>Канал блискавки нагрівається приблизно до 30 000 °C, а це в кілька разів більше, ніж температура поверхні Сонця (близько 5 500 °C).</p>
+                </div>
+            </article>
+
+            <article class="fact-card">
+                <img src="img/banana.svg" alt="Жовтий банан">
+                <div>
+                    <h3>Банан — це ягода</h3>
+                    <p>З погляду ботаніки банан є ягодою, а ось полуниця — ні. Адже ягода розвивається з однієї зав'язі квітки та має м'якоть із насінням усередині.</p>
+                </div>
+            </article>
+
+            <article class="fact-card">
+                <img src="img/sahara.svg" alt="Піщані дюни пустелі Сахара">
+                <div>
+                    <h3>Сахара колись була зеленою</h3>
+                    <p>Приблизно 6000 років тому на місці Сахари були савани, озера й річки. Зміна нахилу земної осі поступово перетворила цей край на найбільшу гарячу пустелю світу.</p>
+                </div>
+            </article>
+        </section>
+
+        <!-- ===== Categories ===== -->
+        <section id="categories">
+            <h2>Categories</h2>
+            <ul class="topic-list">
+                <li><a href="#">Музика</a></li>
+                <li><a href="#">Мови</a></li>
+                <li><a href="#">Математика</a></li>
+                <li><a href="#">Кулінарія</a></li>
+                <li><a href="#">Тварини</a></li>
+            </ul>
+        </section>
+
+        <!-- ===== Scores ===== -->
+        <section id="scores">
+            <h2>Scores</h2>
+            <div class="scores-scroll">
+                <table>
+                    <caption class="visually-hidden">Таблиця найкращих результатів гравців</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Rank</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Score</th>
+                            <th scope="col">Country</th>
+                            <th scope="col">Category</th>
+                            <th scope="col">Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>1</td><td>Максим</td><td>990</td><td>Україна</td><td>Математика</td><td>2026-11-21</td></tr>
+                        <tr><td>2</td><td>Ingrid</td><td>962</td><td>Швеція</td><td>Музика</td><td>2026-11-20</td></tr>
+                        <tr><td>3</td><td>Mateo</td><td>931</td><td>Іспанія</td><td>Кулінарія</td><td>2026-11-18</td></tr>
+                        <tr><td>4</td><td>Priya</td><td>897</td><td>Індія</td><td>Мови</td><td>2026-11-17</td></tr>
+                        <tr><td>5</td><td>Tomasz</td><td>864</td><td>Польща</td><td>Тварини</td><td>2026-11-15</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- ===== Subscribe ===== -->
+        <section id="subscribe">
+            <h2>Subscribe</h2>
+            <p>Щодня — нова головоломка у вашій поштовій скриньці!</p>
+            <button type="button" class="puzzle-btn" aria-label="Підписатися на розсилку Puzzle of the Day">
+                Підписатися на «Puzzle of the Day»
+            </button>
+        </section>
+
+        <!-- ===== Contact ===== -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Є питання або ідея нової категорії? Напишіть нам!</p>
+            <form action="#" method="post" class="message-form">
+                <label for="name">Ім’я</label>
+                <input type="text" id="name" name="name" placeholder="Як до вас звертатися" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+                <label for="message">Повідомлення</label>
+                <textarea id="message" name="message" rows="5" placeholder="Ваше повідомлення" required></textarea>
+
+                <button type="submit">Надіслати</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 World Trivia. Максим Бойко, ТК-41.</p>
+        <p><a href="../index.html">На головну сторінку курсу</a></p>
+    </footer>
+</body>
+</html>

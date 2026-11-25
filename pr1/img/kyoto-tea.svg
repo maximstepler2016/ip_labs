@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Чайна церемонія">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e9edc9"/><stop offset="1" stop-color="#6b8f3a"/></linearGradient></defs>
+  <rect width="800" height="500" fill="url(#g)"/>
+  <ellipse cx="400" cy="300" rx="190" ry="40" fill="#fff" opacity=".7"/>
+  <path d="M250 190 Q250 330 400 330 Q550 330 550 190 Z" fill="#faedcd"/><ellipse cx="400" cy="190" rx="150" ry="30" fill="#7fa650"/><ellipse cx="400" cy="190" rx="120" ry="20" fill="#95bb62"/>
+  <rect x="600" y="140" width="10" height="190" fill="#8a5a2b" transform="rotate(25 605 235)"/>
+  <text x="400" y="475" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#fff" text-anchor="middle">Чайна церемонія</text>
+</svg>

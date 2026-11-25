@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200" role="img" aria-label="Блискавка у грозовій хмарі">
+  <rect width="300" height="200" fill="#2b2d42"/>
+  <g fill="#8d99ae"><circle cx="100" cy="60" r="35"/><circle cx="145" cy="45" r="40"/><circle cx="195" cy="62" r="33"/><rect x="70" y="60" width="160" height="35" rx="15"/></g>
+  <polygon points="160,85 125,140 150,140 130,195 185,120 158,120 178,85" fill="#ffd60a"/>
+</svg>

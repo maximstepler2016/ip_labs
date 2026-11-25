@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200" role="img" aria-label="Піщані дюни Сахари">
+  <rect width="300" height="200" fill="#ffd6a5"/>
+  <circle cx="230" cy="55" r="28" fill="#ffb703"/>
+  <path d="M0 140 Q70 90 140 135 T300 120 V200 H0 Z" fill="#e9a35a"/>
+  <path d="M0 170 Q90 130 170 165 T300 155 V200 H0 Z" fill="#c9833a"/>
+  <g fill="#588157"><rect x="40" y="118" width="4" height="18"/><circle cx="42" cy="115" r="9"/></g>
+</svg>

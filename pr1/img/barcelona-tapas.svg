@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Тапас">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6bd60"/><stop offset="1" stop-color="#c1440e"/></linearGradient></defs>
+  <rect width="800" height="500" fill="url(#g)"/>
+  <circle cx="400" cy="230" r="150" fill="#fff" opacity=".9"/><circle cx="400" cy="230" r="125" fill="#f7ede2"/>
+  <circle cx="340" cy="200" r="30" fill="#c1440e"/><circle cx="410" cy="170" r="26" fill="#6a994e"/><circle cx="450" cy="250" r="32" fill="#bc4749"/><circle cx="360" cy="280" r="28" fill="#f2cc8f"/><circle cx="410" cy="250" r="14" fill="#386641"/>
+  <text x="400" y="475" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#fff" text-anchor="middle">Тапас</text>
+</svg>
